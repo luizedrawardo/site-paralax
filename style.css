@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Gloria+Hallelujah&family=Kalam:wght@300;400;700&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Reenie+Beanie&display=swap');
+*{ 
+    margin:0px;
+    font-family: "Gloria Hallelujah";
+    color: aliceblue;
+}
+body{
+    background-image: url("imagens/ad.png") ;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    /*background-attachment: fixed;
+    fica fica muito exagerado eu acho*/
+
+}
+header{
+    color: aliceblue;
+    /*background-color: black;*/
+    /*deixando o background transparente consigo o efeito legal do background image aparecer no site todo*/
+    padding:  50px 0px 30px 0px ;
+    text-align: center;
+    min-height: 120px;
+
+} 
+header>h1{
+    font-size: 6vw;
+    font-style: oblique;
+    font-weight: bold;
+}
+header>p{
+    font-size: 20px;
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
+    color: rgb(255, 216, 99);
+    padding: 10px;
+   
+}
+header a:hover{
+    color: rgb(70, 237, 209);
+    
+    /*font-size: 22px; se eu aumentar a font o header distorcer resolver depois*/ 
+}
+footer{
+    margin-top: 30px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.539);
+    text-align: center; 
+    font-size: 16px;
+    font-style: oblique;
+}

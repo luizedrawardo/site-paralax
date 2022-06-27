@@ -1,0 +1,46 @@
+section{
+    padding:30px 0px 30px 30px;
+    
+}
+section>p { 
+    font-weight: bold;
+    font-size: 16px;
+    text-align:left;
+    padding: 20px;
+    text-shadow: 9px 3px 10px rgba(14, 49, 49, 0.7);
+    
+}
+p.par1,.par3{
+    background-color: rgba(33, 116, 116, 0.703);
+    border-radius: 20px;
+    width: fit-content;
+}
+section#sec1,#sec2{ 
+    background-color: aliceblue;
+    background-image: url("imagens/6.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    max-width: 1600px;
+    /*max-width: 1800px;**/ /*depois ver se faz diferença*/  
+}
+#sec1{
+    border-radius: 0px 100px 0px 0px;
+}
+#sec2{
+    border-radius: 0px 0px 100px 0px
+}
+section#sec5,#sec6{
+    background-color: aliceblue;
+    background-image: url("imagens/4.png");
+    background-position:center top;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 1600px;
+}
+#sec5{
+    border-radius: 0px 100px 0px 0px;
+}
+#sec6{
+    border-radius: 0px 0px 100px 0px
+}
